@@ -9,7 +9,8 @@ int main(){
     cout << "Scrivi il tuo nome: ";
     cin >> name;
     cout << endl;
-    cout << "Ciao: " << name << endl;;
+    cout << "Ciao: " << name;
+    cin >> name;
 
     return 0;
 }
